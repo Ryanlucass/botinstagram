@@ -1079,8 +1079,14 @@ JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't fin
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
 1606909871740	Marionette	INFO	Listening on port 56613
 1606909871843	Marionette	WARN	TLS certificate errors will be ignored for this session
-1606909871900	geckodriver	INFO	Listening on 127.0.0.1:56639
-1606909874920	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofiletfYTHC"
+1606910059179	Marionette	INFO	Stopped listening on port 56613
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+Temp\\rust_mozprofiletfYTHC"
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
 1606909876992	Marionette	INFO	Listening on port 56653
@@ -1194,3 +1200,33 @@ JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERRO
 JavaScript error: https://s0.2mdn.net/instream/video/client.js, line 32: NS_ERROR_NOT_INITIALIZED: 
 JavaScript error: https://s3.glbimg.com/v1/AUTH_b002e0039b9f46a5a4a94ff667d31e2d/assets/dist/3c945527770e5cbda7e9bf7d30e7b3dc.js, line 13: TypeError: this.horizon is undefined
 JavaScript error: https://s3.glbimg.com/v1/AUTH_b002e0039b9f46a5a4a94ff667d31e2d/assets/dist/3c945527770e5cbda7e9bf7d30e7b3dc.js, line 15: SyntaxError: An invalid or illegal string was specified
+1606910063836	Marionette	INFO	Stopped listening on port 56653
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1606910101065	geckodriver	INFO	Listening on 127.0.0.1:56979
+1606910104119	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofileT9fkT2"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606910106668	Marionette	INFO	Listening on port 56989
+1606910106818	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606910160489	Marionette	INFO	Stopped listening on port 56989
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+Temp\\rust_mozprofile6J8kyI"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606910112383	Marionette	INFO	Listening on port 57033
+1606910112597	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606910131076	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:228:19
+TimedPromise@chrome://marionette/content/sync.js:213:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
