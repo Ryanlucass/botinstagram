@@ -53,7 +53,7 @@ class InstagramBot:
         #fazendo o comentário
         x=1
         while(x):
-            comentarios = ["massa de mais","vou ganhar","já ganhei"]
+            comentarios = ["massa demais","vou ganhar","fruta","testando","imagina ganhar esse ps5","esse mac ae já é meu","maça","banana","uva","salada","feijão","cartulina","coisanosssa","instagram","facebook","mark","computador","celular","teste","televisão","mesa","sala","casa","página","tourrete","dileta","alek","bagui é doido mermo","azideia","tmj","pjl","fortalcity","085","é sal","genibaú"]
             driver.find_element_by_class_name('Ypffh').click()
             campo_comentario = driver.find_element_by_class_name('Ypffh')
             time.sleep(random.randint(2,5))
