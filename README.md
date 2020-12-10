@@ -1,5 +1,5 @@
 # botinstagram
- Um bot no instagram para comentar em fotos
+ Bot (Instagram)
  -----
 ### Etrando na URL do instagram 
  ![](https://ik.imagekit.io/cvl9jqbo47c/entrando_na_pag_yPBxCWzGin.png)
