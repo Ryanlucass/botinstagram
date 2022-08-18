@@ -65,7 +65,7 @@ class InstagramBot:
 
 
 
-calivembot = InstagramBot('llucasalvestr','r21l12rpg')
+calivembot = InstagramBot() 
 calivembot.login()
 
 
